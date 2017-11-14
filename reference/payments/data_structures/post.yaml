@@ -1,13 +1,13 @@
 resource: payment.raml
 use:
-  
+
 erros:
-  200 SUCCESS: 
+  200 SUCCESS:
     description:
-      es: La solicitud ha sido procesada con exito.
+      es: La solicitud ha sido procesada con éxito.
       en: The request has been processed successfully.
       pt: O pedido foi processado com sucesso.
-  400 BAD_REQUEST: 
+  400 BAD_REQUEST:
     description:
       es: La petición ha sido realizada erróneamente o con datos no válidos
       en: The request has been made erroneously or with invalid params.
@@ -18,7 +18,7 @@ erros:
           es: Se ha encontrado un error en los parámetros enviados.
           en: Params Error
           pt: Ocorreu um erro nos parâmetros enviados.
-      5: 
+      5:
         description:
           es: Es necesario proveer un access token válido para proceder con la operación solicitada.
           en: Token must be for test
@@ -52,7 +52,7 @@ erros:
         description:
           es: Fallo la conexión al API de CardTokens.
           en: Connection to Card Token API fail
-          pt: 
+          pt:
       2009:
         description:
           es: El emisor de tarjeta es un parámetro obligatorio.
@@ -60,19 +60,19 @@ erros:
           pt: A conexão com a API CardTokens falhou.
       2010:
         description:
-          es: La tarjeta con la cual se quiere realizar la transacción no ha sido encontrada. 
-          en: Card not found 
+          es: La tarjeta con la cual se quiere realizar la transacción no ha sido encontrada.
+          en: Card not found
           pt: O cartão com o qual deseja realizar a transação não foi encontrado.
       2014:
         description:
-          es: El valor enviado en el parámetro reference_id no es valido. 
+          es: El valor enviado en el parámetro reference_id no es válido.
           en: Invalid reference_id
           pt: O valor enviado no parâmetro reference_id não é válido.
       2020:
         description:
           es: Cliente no autorizado para operar.
           en: Customer not allowed to operate
-          pt: 
+          pt:
       2021:
         description:
           es: Comercio no autorizado para operar.
@@ -85,12 +85,12 @@ erros:
           pt: Usuários inválidos envolvidos na operação.
       2038:
         description:
-          es: El valor enviado en el parámetro campaign_id no es valido. 
+          es: El valor enviado en el parámetro campaign_id no es válido.
           en: Invalid campaign_id
-          pt: 
+          pt:
       2039:
         description:
-          es: El código del cupón enviado no es valido.
+          es: El código del cupón enviado no es válido.
           en: Invalid coupon_code
           pt: O código do cupom enviado não é válido.
       2040:
@@ -115,7 +115,7 @@ erros:
           pt: Você deve fornecer o nome do emissor do cartão com as informações do cartão ao criar o token do cartão.
       3003:
         description:
-          es: El valor enviado en el parámetro card_token_id no es valido.
+          es: El valor enviado en el parámetro card_token_id no es válido.
           en: Invalid card_token_id
           pt: O valor enviado no parâmetro card_token_id não é válido.
       3008:
@@ -135,7 +135,7 @@ erros:
           pt: O método de pagamento selecionado não foi encontrado.
       3012:
         description:
-          es: El valor enviado en el parámetro security_code_length no es valido.
+          es: El valor enviado en el parámetro security_code_length no es válido.
           en: Invalid parameter security_code_length
           pt: O valor enviado no parâmetro security_code_length não é válido.
       3013:
@@ -145,17 +145,17 @@ erros:
           pt: O parâmetro security_code é um parâmetro obrigatório e não pode ser nulo.
       3014:
         description:
-          es: El valor enviado en el parámetro payment_method no es valido.
+          es: El valor enviado en el parámetro payment_method no es válido.
           en: Invalid parameter payment_method
           pt: O valor enviado no parâmetro payment_method não é válido.
       3015:
         description:
-          es: El valor enviado en el parámetro card_number_length no es valido.
+          es: El valor enviado en el parámetro card_number_length no es válido.
           en: Invalid parameter card_number_length
           pt: O valor enviado no parâmetro card_number_length não é válido.
       3016:
         description:
-          es: El valor enviado en el parámetro card_number no es valido.
+          es: El valor enviado en el parámetro card_number no es válido.
           en: Invalid parameter card_number
           pt: O valor enviado no parâmetro card_number não é válido.
       3017:
@@ -195,27 +195,27 @@ erros:
           pt: O parâmetro cardholder.document.subtype é um parâmetro obrigatório e não pode ser nulo.
       3026:
         description:
-          es: El parámetro card_id no tiene un valor valido para el método de pago seleccionado.
+          es: El parámetro card_id no tiene un valor válido para el método de pago seleccionado.
           en: Invalid card_id for this payment_method_id
           pt: O parâmetro card_id não possui um valor válido para o método de pagamento selecionado.
       3027:
         description:
-          es: El valor enviado en el parámetro payment_type_id no es valido.
+          es: El valor enviado en el parámetro payment_type_id no es válido.
           en: Invalid payment_type_id
           pt: O valor enviado no parâmetro payment_type_id não é válido.
       3028:
         descripción:
-          es: El valor enviado en el parámetro payment_method_id no es valido.
+          es: El valor enviado en el parámetro payment_method_id no es válido.
           en: Invalid payment_method_id
           pt: O valor enviado no parâmetro payment_method_id não é válido.
       3029:
         description:
-          es: El valor enviado en el parámetro expiration_month no es valido.
+          es: El valor enviado en el parámetro expiration_month no es válido.
           en: Invalid card expiration month
           pt: O valor enviado no parâmetro expiration_month não é válido.
       3030:
         description:
-          es: El valor enviado en el parámetro expiration_year no es valido.
+          es: El valor enviado en el parámetro expiration_year no es válido.
           en: Invalid card expiration year
           pt: O valor enviado no parâmetro expiration_year não é válido.
       4000:
@@ -250,7 +250,7 @@ erros:
           pt: O valor enviado no parâmetro de installments deve ser numérico
       4006:
         description:
-          es: La informacion sobre el comprador no tiene un formato correcto.
+          es: La información sobre el comprador no tiene un formato correcto.
           en: Payer atributte is malformed
           pt: A informação sobre o comprador não possui um formato correto.
       4007:
@@ -262,7 +262,7 @@ erros:
         description:
           es: El parámetro payer.id es un parámetro requerido y no puede ser nulo.
           en: payer.id atributte can't be null
-          pt: 
+          pt:
       4013:
         description:
           es: El parámetro payer.type es un parámetro requerido y no puede ser nulo.
@@ -272,7 +272,7 @@ erros:
         description:
           es: El parámetro payment_method_reference_id es un parámetro requerido y no puede ser nulo.
           en: payment_method_reference_id atributte can't be null
-          pt: 
+          pt:
       4016:
         description:
           es: El parámetro payment_method_reference_id debe ser numérico.
@@ -287,7 +287,7 @@ erros:
         description:
           es: El parámetro payment_id es un parámetro requerido y no puede ser nulo.
           en: payment_id atributte can't be null
-          pt: 
+          pt:
       4019:
         description:
           es: El parámetro payment_id debe ser numérico.
@@ -295,7 +295,7 @@ erros:
           pt: O parâmetro payment_id é um parâmetro obrigatório e não pode ser nulo.
       4020:
         description:
-          es: El parámetro notificaction_url debe ser una url valida.
+          es: El parámetro notificaction_url debe ser una url válida.
           en: notificaction_url atributte must be url valid
           pt: O parâmetro notificaction_url deve ser um URL válido.
       4021:
@@ -305,9 +305,9 @@ erros:
           pt: O parâmetro notificaction_url deve ter menos de 500 caracteres.
       4022:
         description:
-          es: El parámetro metadata debe ser un JSON valido.
+          es: El parámetro metadata debe ser un JSON válido.
           en: metadata atributte must be a valid JSON
-          pt: 
+          pt:
       4023:
         description:
           es: El parámetro transaction_amount un parámetro requerido y no puede ser nulo.
@@ -315,12 +315,12 @@ erros:
           pt: O parâmetro de metadados deve ser um JSON válido.
       4024:
         description:
-          es: El parámetro transaction_amount debe ser numérico. 
+          es: El parámetro transaction_amount debe ser numérico.
           en: transaction_amount atributte must be numeric
           pt: O parâmetro transaction_amount deve ser numérico.
       4026:
         description:
-          es: Monto de cupón de descuento no valido.
+          es: Monto de cupón de descuento no válido.
           en: Invalid coupon_amount
           pt: Valor do cupom de desconto não válido.
       4027:
@@ -330,17 +330,17 @@ erros:
           pt: O parâmetro campaign_id deve ser numérico.
       4028:
         description:
-          es: El parámetro coupon_amount debe ser numérico. 
+          es: El parámetro coupon_amount debe ser numérico.
           en: coupon_amount atributte must be numeric
           pt: O parâmetro coupon_amount deve ser numérico.
       4029:
         description:
-          es: Tipo de pagador invalido.
+          es: Tipo de pagador inválido.
           en: Invalid payer type
           pt: Tipo de pagador inválido.
       4037:
         description:
-          es: Monto de la transaccion no valido.
+          es: Monto de la transacción no válido.
           en: Invalid transaction_amount
           pt: Quantidade da transação não válida.
       4038:
@@ -352,12 +352,12 @@ erros:
         description:
           es: El valor del parámetro application_fee no puede ser negativo.
           en: application_fee cannot be a negative value
-          pt: 
+          pt: O valor do parâmetro application_fee não pode ser negativo.
       4050:
         description:
-          es: El valor del parámetro payer.email debe ser un email valido.
+          es: El valor del parámetro payer.email debe ser un email válido.
           en: payer.email must be a valid email
-          pt: O valor do parâmetro application_fee não pode ser negativo.
+          pt:
       4051:
         description:
           es: El valor del parámetro payer.email debe tener una longitud mayor que 254 caracteres.
@@ -365,10 +365,10 @@ erros:
           pt: O valor do parâmetro payer.email deve ter mais de 254 caracteres.
   401 UNAUTHORIZED:
     description:
-      es: La peticion realizada no ha sido autorizada.
+      es: La petición realizada no ha sido autorizada.
       en: The request has not been authorized.
       pt: O pedido feito não foi autorizado.
-  403 FORBIDDEN: 
+  403 FORBIDDEN:
     description:
       es: El usuario que está realizando la petición no está autorizado.
       en: The user who made the request is not authorized.
@@ -381,10 +381,10 @@ erros:
           pt: O usuário que está tentando executar esta operação não está autorizado a consultar este recurso.
       2041:
         description:
-          es: El tipo de operacion que se trata de realizar solo esta permitido para usuarios de tipo adminsitrador.
+          es: El tipo de operación que se trata de realizar solo esta permitido para usuarios de tipo administrador.
           en: Only admin users can perform the requested action
           pt: O tipo de operação a ser executada só é permitido para usuários de tipo administrador.
-      3002: 
+      3002:
         description:
           es: El usuario que esta tratando de realizar esta operación no esta autorizado para realizar esta acción.
           en: The caller is not authorized to perform this action

@@ -31,7 +31,7 @@ errors:
   - '4':
       description:
         en: The caller is not authorized to access this resource
-        es: La persona que llama no está autorizado para acceder a este recurso
+        es: La persona que llama no está autorizada para acceder a este recurso
         pt: O autor da chamada não está autorizado a acessar este recurso
   - '4000':
       description:
@@ -57,17 +57,17 @@ errors:
   - '2001':
       description:
         en: Invalid JSON
-        es: No válido JSON
+        es: JSON inválido
         pt: Inválido JSON
   - '2005':
       description:
         en: Invalid JSON
-        es: No válido JSON
+        es: JSON inválido
         pt: Inválido JSON
   - '2006':
       description:
         en: Unsupported country
-        es: No compatible país
+        es: País no soportado
         pt: Não suportado país
   - '4007':
       description:
@@ -82,7 +82,7 @@ errors:
   - '4012':
       description:
         en: Parameter attribute must be valid JSON
-        es: Parámetro del atributo debe ser válido JSON
+        es: Parámetro del atributo debe ser un JSON válido
         pt: O parâmetro de atributo tem de ser válido JSON
   - '4013':
       description:
@@ -102,24 +102,23 @@ errors:
   - '4016':
       description:
         en: Invalid frequency_type, must be days/months
-        es: No válido frequency_type, debe ser de días/meses
+        es: frequency_type inválida, debe ser días/meses
         pt: Inválido frequency_type, devem ser dias/meses
   - '4017':
       description:
         en: Invalid debit_date, must be from 1 to 31
-        es: No válido debit_date, debe ser de 1 a 31 de
+        es: debit_date inválida, debe ser de 1 a 31
         pt: Inválido debit_date, deve ser de 1 a 31 de
   - '4018':
       description:
         en: Invalid status, must be active/inactive/cancelled
-        es: Estado no válido, debe ser activo/inactivo/cancelado
+        es: Estado inválido, debe ser activo/inactivo/cancelado
         pt: Status inválido, deve ser ativo/inativo/cancelado
   - '4019':
       description:
         en: auto_recurring.free_trial.frequency_type is null and auto_recurring.free_trial.frequency
           is not null
-        es: auto_recurring.free_trial.frequency_type es nulo y auto_recurring.free_trial.la
-          frecuencia no es null
+        es: auto_recurring.free_trial.frequency_type es nulo y auto_recurring.free_trial.frequency no es null
         pt: auto_recurring.free_trial.frequency_type é nulo e auto_recurring.free_trial.a
           frequência não é nulo
   - '4020':
