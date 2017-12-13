@@ -2,4 +2,4 @@
 
 Una descripción asdaskldjasldkjasdasjdlkasj.
 
-Una imagen [nombredelaimagen](/images/vtex.jpg)
+Una imagen [nombredelaimagen](/images/vtex.png)
